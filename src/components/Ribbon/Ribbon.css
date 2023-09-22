@@ -1,0 +1,44 @@
+.ribbon {
+  background-color: #161513;
+  margin-top: 112px;
+}
+
+.ribbon__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 64px;
+  justify-content: space-between;
+  /* transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg); */
+}
+
+.ribbon__wrapper-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 11px;
+}
+
+.ribbon__text {
+  color: #fff;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+@media screen and (max-width: 1284px) {
+  .ribbon__text {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 1152px) {
+  .ribbon__text {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .ribbon__text {
+    font-size: 8px;
+  }
+}

@@ -3,6 +3,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  margin: 36px 80px;
 }
 
 .header__nav {
