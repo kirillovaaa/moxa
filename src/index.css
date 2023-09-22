@@ -1,0 +1,24 @@
+@import url(../src/vendor/normalize.css);
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #f2f1ef;
+  color: #161513;
+  margin: 36px 80px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
