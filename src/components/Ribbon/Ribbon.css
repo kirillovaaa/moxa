@@ -1,6 +1,6 @@
 .ribbon {
-  background-color: #161513;
-  margin-top: 112px;
+  position: relative;
+  margin-top: 120px;
 }
 
 .ribbon__wrapper {
@@ -9,9 +9,12 @@
   justify-content: center;
   height: 64px;
   justify-content: space-between;
-  /* transform: rotate(-10deg);
-  -moz-transform: rotate(-10deg);
-  -webkit-transform: rotate(-10deg); */
+  transform: scale(105%) rotate(-5deg);
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-color: #161513;
+  max-width: 100%;
 }
 
 .ribbon__wrapper-item {

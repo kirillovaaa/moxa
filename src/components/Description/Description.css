@@ -1,0 +1,133 @@
+.description {
+  display: flex;
+  flex-direction: column;
+  margin: 165px 204px 0 190px;
+}
+.description__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.description__block {
+  display: flex;
+  flex-direction: column;
+}
+
+.description__title {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.description__subtitle {
+  margin: 0;
+  margin-top: 21px;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.56px;
+  font-weight: 400;
+}
+
+.description__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.description__wrapper-title {
+  font-size: 31px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.64px;
+}
+
+.description__wrapper-subtitle {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.description__data {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.description__data-item {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.description__data-event {
+  color: #e94d35;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.description__data-text {
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.48px;
+}
+
+.description__items {
+  display: flex;
+  flex-direction: row;
+  margin-top: 150px;
+  align-items: center;
+  justify-content: center;
+}
+
+.description__item-white {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 22px 72px;
+  gap: 11px;
+  border: 1px solid #161513;
+}
+.description__item-black {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  background-color: #161513;
+  padding: 22px 72px;
+  text-align: center;
+  border: 1px solid #161513;
+  color: #fff;
+}
+
+.description__item-title {
+  margin: 0;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 64px;
+}
+.description__item-subtitle {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 1.28px;
+}
+
+@media screen and (max-width: 1338px) {
+  .description__subtitle {
+    font-size: 40px;
+  }
+  .description__container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+  .description__data {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+}
