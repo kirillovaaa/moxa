@@ -2,6 +2,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 1060px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .services__image {
@@ -30,7 +34,7 @@
 .services__grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  width: 1060px;
+  width: 100%;
   column-gap: 40px;
   row-gap: 40px;
   margin-bottom: 161px;

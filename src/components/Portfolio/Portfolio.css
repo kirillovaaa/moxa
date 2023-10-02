@@ -3,6 +3,10 @@
   flex-direction: column;
   align-items: center;
   margin-top: 122px;
+  max-width: 1060px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .portfolio__image {
   width: 40px;
@@ -32,12 +36,13 @@
   flex-direction: column;
   gap: 95px;
   margin-bottom: 120px;
+  width: 100%;
 }
 
 .portfolio__item {
   display: flex;
   flex-direction: row;
-  width: 1060px;
+  width: 100%;
   gap: 44px;
 }
 
@@ -75,4 +80,16 @@
 .portfolio__button:hover {
   cursor: pointer;
   opacity: 0.7;
+}
+
+@media screen and (max-width: 1067px) {
+  .portfolio__item-image {
+    width: 430px;
+    height: 250px;
+  }
+}
+@media screen and (max-width: 592px) {
+  .portfolio__description {
+    font-size: 30px;
+  }
 }
